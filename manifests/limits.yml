@@ -1,7 +1,7 @@
 name: limits
 
 releases:
-- name: os-conf
+- name: director-os-conf
   version: latest
 
 stemcells:
@@ -17,9 +17,9 @@ instance_groups:
   vm_type: default
   stemcell: default
   jobs:
-  - release: os-conf
+  - release: director-os-conf
     name: limits_not_recommended
-  - release: os-conf
+  - release: director-os-conf
     name: user_add
   properties:
     limits_conf: |

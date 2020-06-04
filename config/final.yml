@@ -1,5 +1,5 @@
 ---
-final_name: os-conf
+final_name: director-os-conf
 blobstore:
   provider: s3
   options:
